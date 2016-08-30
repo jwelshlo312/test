@@ -11,6 +11,8 @@ library(GGally)
 data(iris)
 head(iris)
 
+## comment
+
 ## Perform aggregation of data
 out <- iris %>%
 	group_by(Species) %>%
